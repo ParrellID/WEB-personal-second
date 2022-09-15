@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "Gotham-Bold";
+	src: url(fonts/Gotham-Bold.otf);
+}
+@font-face {
+	font-family: "Gotham-Medium";
+	src: url(fonts/GothamMedium.ttf);
+}
+@font-face {
+	font-family: "Gotham-Thin";
+	src: url(fonts/Gotham-Thin.otf);
+}
+h1 {
+	font-family: "Gotham-Bold", sans-serif;
+	font-weight: bold;
+	font-size: 5em;
+	margin: 0 0 150px;
+}
+body {
+	font-family: "Gotham-Medium", sans-serif;
+	font-weight: normal;
+	font-size: 2em;
+	color: white;
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+}
+footer {
+	font-family: "Gotham-Thin", sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	text-align: left;
+}
+#rcorner {
+	border-radius: 12px;
+	background: #535353;
+	padding: 25px;
+	margin: 20px 0 20px;
+}
+#rcorner2 {
+	border-radius: 12px;
+	background: #091113;
+	padding: 25px;
+	margin: 40px 40px 40px 40px;
+	box-shadow: 0px 0px 50px -10px black;
+}
+#capsule {
+	border-radius: 500px;
+	text-align: center;
+	background: #091113;
+	padding: 25px;
+	margin: 40px 40px 40px 40px;
+	box-shadow: 0px 0px 50px -10px black;
+}
+#rcorner3 {
+	border-radius: 12px 12px 0 0;
+	background: #535353;
+	padding: 10px;
+	margin: 10px 0 0 0;
+}
+img.johan {
+	filter: brightness(50%);
+	box-shadow: 0px 0px 50px -10px black;
+	width: 498px;
+	height: 333px;
+}
+a.social:hover img {
+	opacity: 0.7;
+}
+a.social img {
+	border-radius: 50%;
+}
+#music {
+	width: 100%;
+}
+#shuffle {
+	margin: 20px 0 0;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	font-size: 20px;
+	border: none;
+}
+#shuffle:hover {
+	opacity: 0.7;
+}
