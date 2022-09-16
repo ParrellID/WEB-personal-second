@@ -1,1 +1,1 @@
-# ftwrr.github.io
+# "STOP DOING STUPID THINGS."
